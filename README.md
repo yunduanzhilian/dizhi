@@ -4,15 +4,15 @@
 
 ## 最新可用域名
 
-- **域名1：** [example1.com](https://example1.com)
-- **域名2：** [example2.com](https://example2.com)
+- **域名1：** [a.云端智联.com](https://a.云端智联.com)
+- **域名2：** [b.云端智联.com](https://b.云端智联.com)
 - **更多域名...**
 
 ## 联系方式
 
 如果您在使用过程中遇到任何问题或有疑问，请随时联系我们的客服团队。
 
-- **电子邮件：** support@example.com
+- **电子邮件：** yunduanzhilian8@gmail.com
 
 ## 如何使用
 
