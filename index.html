@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,86 +7,84 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: #ffffff;
             margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
             text-align: center;
         }
-
         .container {
             max-width: 600px;
-            margin: auto;
-            border: 2px solid #4CAF50;
-            border-radius: 10px;
-            overflow: hidden;
-        }
-
-        header {
-            background-color: #4CAF50;
-            padding: 15px;
-            color: #fff;
-            font-size: 24px;
-        }
-
-        main {
             padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         }
-
+        h1 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
         p {
-            font-size: 18px;
+            font-size: 1.2em;
+            margin: 1em 0;
         }
-
-        .domain-list {
-            list-style: none;
-            padding: 0;
-            text-align: left;
+        .domains {
+            margin: 1em 0;
         }
-
-        .domain-list li {
-            margin-bottom: 10px;
-            border: 1px solid #4CAF50;
-            border-radius: 5px;
-            padding: 8px;
-            background-color: #fff;
-        }
-
-        .domain-list a {
+        .domains a {
+            display: block;
+            font-size: 1.2em;
+            color: #00d8ff;
             text-decoration: none;
-            color: #007BFF;
-            font-weight: bold;
+            margin: 0.5em 0;
+            transition: color 0.3s;
         }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            width: 100%;
-            position: absolute;
-            bottom: 0;
-            left: 0;
+        .domains a:hover {
+            color: #66e0ff;
+        }
+        .contact {
+            margin: 2em 0;
+            font-size: 1em;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5em;
+            }
+            p, .domains a {
+                font-size: 1em;
+            }
+            .contact {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            云端智联平台最新可用域名发布页
-        </header>
-
-        <main>
-            <p>尊敬的用户，以下是云端智联平台的最新可用域名：</p>
-
-            <ul class="domain-list">
-                <li><a href="https://a.云端智联.com" target="_blank">域名1：a.云端智联.com</a></li>
-                <li><a href="https://b.云端智联.com" target="_blank">域名2：b.云端智联.com</a></li>
-                <!-- 添加更多域名信息 -->
-            </ul>
-        </main>
-
-        <footer>
-            如有问题，请联系客服：<a href="mailto:yunduanzhilian8@gmail.com" style="color: #fff;">yunduanzhilian8@gmail.com</a>
-        </footer>
+        <h1>云端智联平台地址发布页</h1>
+        <p>欢迎访问云端智联平台地址发布页。此页面用于宣布最新可用的域名，以方便用户在域名屏蔽时能够找到可用的替代地址。</p>
+        <div class="domains">
+            <h2>最新可用域名</h2>
+            <a href="http://a.云端智联.com">域名1：a.云端智联.com</a>
+            <a href="http://b.云端智联.com">域名2：b.云端智联.com</a>
+            <p>更多域名...</p>
+        </div>
+        <div class="contact">
+            <h2>联系方式</h2>
+            <p>如果您在使用过程中遇到任何问题或有疑问，请随时联系我们的客服团队。</p>
+            <p>电子邮件：<a href="mailto:yunduanzhilian8@gmail.com" style="color: #00d8ff;">yunduanzhilian8@gmail.com</a></p>
+        </div>
+        <div class="instructions">
+            <h2>如何使用</h2>
+            <p>请访问本页面以获取最新可用域名信息。</p>
+            <p>在您的浏览器中输入可用域名以访问云端智联平台。</p>
+            <p>感谢您的支持！</p>
+        </div>
+        <p style="font-size: 0.9em; margin-top: 2em;">注意：请注意谨慎访问非官方发布的域名，以确保您的安全性。</p>
     </div>
 </body>
 </html>
